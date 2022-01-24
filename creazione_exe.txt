@@ -1,0 +1,4 @@
+pyinstaller.exe --onefile --windowed --icon=icona.ico main.py
+
+dentro la cartella dist c'è l'eseguibile "main.exe"
+prima di lanciare l'eseguibile copiare l'icona dentro la cartella dove sta il file exe
