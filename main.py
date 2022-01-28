@@ -206,8 +206,9 @@ def main(argv):
     root = Tk()
     root.wm_title("Hash String and File")
     app = App(root,parametro)
-    #root.iconbitmap(script_directory + '\\icona.ico')
-    root.iconbitmap('icona.ico')
+    print(script_directory + '\\icona.ico')
+    root.iconbitmap(script_directory + '\\icona.ico')
+    #root.iconbitmap('icona.ico')
     root.mainloop()
     
 if __name__ == '__main__':
